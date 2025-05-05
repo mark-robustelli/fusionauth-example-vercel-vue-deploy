@@ -10,7 +10,7 @@ const app = createApp(App)
 
 app.use(FusionAuthVuePlugin, {
   clientId: 'ec526002-35cc-4e6e-8f5b-0e4fba2b08c8',
-  serverUrl: 'https://authcbchange.codegremlins.net',
+  serverUrl: 'https://authcbchangebad.codegremlins.net',
   redirectUri: 'https://changebank.codegremlins.net',
   postLogoutRedirectUri: 'https://changebank.codegremlins.net',
   shouldAutoFetchUserInfo: true,
